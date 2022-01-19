@@ -9,8 +9,6 @@
 <!-- ABOUT -->
 ## About
 
-Modulation Transfer Function Module for slanted edge figures
-
 The optical transfer function (OTF) of an optical system specifies 
 how different spatial frequencies are handled by the system. 
 It is used by optical engineers to describe how the optics project 
