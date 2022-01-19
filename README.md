@@ -17,15 +17,18 @@ in the optical transmission chain.
 A variant, the modulation transfer function (MTF), neglects phase effects, 
 but is equivalent to the OTF in many situations.
 
-In normal operation MTF is fourier transform of Point Spread Function.
-But for slanted edge targeted MTF calculations we use LSF instead of PSF.
-This is because we assume LSF as cross-section of PSF along slant.
+In normal operation MTF is fourier transform of Point Spread Function (PSF).
+But for slanted edge targeted MTF calculations we use Line Spread Function (LSF)
+instead of PSF. This is because we assume LSF as cross-section of PSF along slant.
 LSF can be optained using detivative of Edge Spread Function (ESF).
+
+Since LSF is crossection of PSF along slant edge, a better aproach will be 
+calculating MTF for both horizontally and vertically tilted images.
 
 For line scan operations it is better to calculate along track and 
 across track MTF's.
 
-Also for non symetrical pixel pitch/sizes it will also be convinient
+Also for non symetrical pixel pitch/sizes sensors it will also be convinient
 to calculate horizontal and vertical slants.
 
 Note that, the prefered slant tilt is between 2 degree and 10 degree.
