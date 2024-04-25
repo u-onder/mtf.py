@@ -581,4 +581,4 @@ class MTF:
             plt.show(block=False)
             plt.show()
 
-        return cMTF(x, y, mtfAtNyquist, esf.width)
+        return cMTF(x, y, mtf.mtfAtNyquist, esf.width)
