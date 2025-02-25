@@ -37,11 +37,12 @@ Note that the preferred slant tilt is between 2 degrees and 10 degrees.
 
 <!-- USAGE -->
 ## Usage
+```
 import mtf as mtf
 
 imgArr = mtf.Helper.LoadImageAsArray('slant.png')
 res = mtf.MTF.CalculateMtf(imgArr, verbose=mtf.Verbosity.DETAIL)
-
+```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- DEPENDENCIES -->
